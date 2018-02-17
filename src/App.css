@@ -1,24 +1,27 @@
 body {
-  background: #E9EBEE; }
+  background: #E9EBEE;
+  min-height: 100vh;
+  position: relative; 
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Oswald", sans-serif;
   margin-bottom: 2;
-  color: #303030; }
+  color: #303030; 
+}
 
 p, button, a, input, q {
-  font-family: "Droid Sans", sans-serif; }
+  font-family: "Droid Sans", sans-serif; 
+}
 
 p {
   margin: 0;
   margin-top: 2;
 }
 
-.bg-white {
-  background: #fff; }
-
 .bg-inverse {
-  background: #000 !important; }
+  background: #000 !important; 
+}
 
 .navbar {
   margin-bottom: 0;
@@ -26,32 +29,27 @@ p {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8); }
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  background-image:
+    linear-gradient(to right, rgb(49, 49, 49), rgb(26, 25, 25)); 
+}
+
   .navbar .border {
-    border-top: 1px solid #303030; }
+    border-top: 1px solid #303030; 
+}
+
   .navbar .navbar-brand {
     color: #fff !important;
-    font-family: "Oswald", sans-serif; }
-
-.app-title {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); }
-
-.video-container {
-  background: #000; }
+    font-family: "Oswald", sans-serif; 
+}
 
 .app-body {
-  font-family: "Droid Sans", sans-serif; }
-
-footer {
-  background: #000;
-  padding-top: 3rem;
-  padding-bottom: 3rem; }
-
-footer p {
-  margin-bottom: .25rem; }
+  font-family: "Droid Sans", sans-serif; 
+}
 
 button {
-  cursor: pointer; }
+  cursor: pointer; 
+}
 
 .card-block {
   background: #F6F7F9;
@@ -96,4 +94,87 @@ button {
 .col-6 {
   border-radius: 10px;
   background-color: white;
+  margin-left: 100px;
+  margin-bottom: 300px;
+}
+
+.title {
+  margin-left: 10px;
+  color: rgb(206, 204, 204);
+  font-family: Cormorant Garamond;
+  font-size: 35px;
+  line-height: 1.5em;
+}
+
+.title:hover {
+  color: white;
+}
+
+.app-title {
+  margin-top: 10px;
+  margin-left: 110px;
+  color: rgb(22, 108, 189);
+  text-shadow: .5px .5px rgb(59, 59, 59);
+}
+
+.page-footer {
+  background-image:
+    linear-gradient(to right, rgb(68, 68, 68), rgb(46, 46, 46));
+  width: 100%;
+  height: 22vh;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copyright {
+  position: absolute;
+  height: 5vh;
+  width: 100%;
+  bottom: 0;
+}
+
+.title-footer {
+  margin-top: 10px;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  color: rgb(206, 204, 204)
+}
+
+.title-footer2 {
+  margin-top: 10px;
+  font-family: Cormorant Garamond;
+  font-size: 30px;
+  color: rgb(206, 204, 204)
+}
+
+.copyright1 {
+  color: rgb(87, 87, 87);
+}
+
+.copyright1:hover {
+  color: rgb(136, 136, 136);
+}
+
+.links-parent {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.links {
+  margin-left: 40px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-left: 30px;
+  color: rgb(136, 136, 136);
+  font-family: Cormorant Garamond;
+
 }
