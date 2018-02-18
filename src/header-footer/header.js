@@ -15,6 +15,7 @@ class Header extends Component {
                 <div className="pt-2">
                     <div>
                         <h1 className="pb-4 pt-5 app-title">Current Weather</h1>
+                        <h1 className="pb-4 pt-5 app-title2">Favorite Locations</h1>
                     </div>
                 </div>
             </div>
