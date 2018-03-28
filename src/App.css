@@ -77,16 +77,26 @@ button {
   padding: .35rem 1rem;
 }
 
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .col-6 {
   border-radius: 10px;
   background-color: rgb(255, 255, 255);
-  margin-left: 100px;
+}
+
+.container-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
 }
 
 .container {
   width: 100%;
-  position: absolute;
-  top: 30vh;
 }
 
 .title {
@@ -102,20 +112,21 @@ button {
   color: rgb(29, 203, 247);
 }
 
-.app-title {
-  margin-left: 120px;
-  color: rgb(22, 108, 189);
-  text-shadow: .5px .5px rgb(59, 59, 59);
-  position: absolute;
-  top: 15vh;
+.app-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.app-title2 {
-  margin-left: 1050px;
+.app-title {
   color: rgb(22, 108, 189);
   text-shadow: .5px .5px rgb(59, 59, 59);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  top: 15vh;
+  margin-top: 150px;
+  font-size: 35px;
 }
 
 .page-footer {
@@ -156,6 +167,8 @@ button {
 
 .links {
   margin-left: 100px;
+  text-decoration: none;
+  list-style: none;
 }
 
 .subtitle {
@@ -168,54 +181,10 @@ button {
 }
 
 
-.submit-fav {
-  width: 600px;;
-  height: 345px;
-  background-color: white;
-  position: absolute;
-  top: 30vh;
-  left: 56%;
-  border-radius: 10px;
-  border: 1px solid #dddfe2;
-  padding: 1.5em;
-}
 
-.list {
-  position: absolute;
-  top: 38vh;
-  left: 56.5%;
-  height: 250px;
-  background-color: rgb(255, 255, 255);
-  width: 580px;
-  overflow: auto;
-}
-.favslist {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
 
-.newFav {
-  background-color: rgba(209, 209, 209, 0.37);
-  width: 320px;
-  height: 40px;
-  margin-top: 10px;
-  margin-right: 200px;
-  border-radius: 10px;
-  font-family: "Droid Sans", sans-serif; 
-}
 
-.deleteFav {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  width: 30px;
-  background-color: rgb(71, 0, 0);
-  border-radius: 100px;
-  color: white;
-  font-weight: bold;
-  font-family: "Droid Sans", sans-serif; 
-  margin-top: 10px;
-}
+
+
+
+
