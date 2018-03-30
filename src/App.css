@@ -90,7 +90,7 @@ button {
 
 .container-parent {
   position: relative;
-  top: 220px;
+  top: 330px;
 }
 
 .container {
@@ -122,7 +122,7 @@ button {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-top: 170px;
+  margin-top: 270px;
   font-size: 35px;
 }
 
@@ -178,6 +178,69 @@ button {
   width: 100%;
 }
 
+
+@media (max-width: 1800px) {
+  .app-title {
+    margin-top: 250px;
+  }
+  .container-parent {
+    top: 300px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .app-title {
+    margin-top: 200px;
+  }
+  .container-parent {
+    top: 250px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .app-title {
+    margin-top: 170px;
+  }
+  .container-parent {
+    top: 220px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .app-title {
+    margin-top: 150px;
+  }
+  .container-parent {
+    top: 200px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .app-title {
+    margin-top: 130px;
+  }
+  .container-parent {
+    top: 180px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .app-title {
+    margin-top: 130px;
+  }
+  .container-parent {
+    top: 170px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .app-title {
+    margin-top: 130px;
+  }
+  .container-parent {
+    top: 160px;
+  }
+}
 
 
 
